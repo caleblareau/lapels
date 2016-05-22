@@ -1,0 +1,6 @@
+dist
+obsolete
+lapels.egg-info
+*.pyc
+*.tbi
+*.bai
