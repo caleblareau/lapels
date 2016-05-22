@@ -59,7 +59,12 @@ It is recommended to use easy-install
 
 Users need to download the tarball of source from
 
-    http://code.google.com/p/lapels/
+    https://github.com/shunping/lapels/
+    
+    or 
+
+    https://pypi.python.org/pypi/lapels/
+
     
 and then type:
 
@@ -122,7 +127,7 @@ Examples can be downloaded from
     
     or 
 
-    https://pypi.python.org/pypi/lapelsa
+    https://pypi.python.org/pypi/lapels/
 
     
 To run on the example files, type:
