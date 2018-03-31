@@ -242,7 +242,8 @@ def run():
 
     # Get the number of reads in each chromosome
     nReadsInChroms = dict()
-    for idxstat in pysam.idxstats(args.bamin_fn):
+    x = pysam.idxstats(args.bamin_fn).split("\n")
+    for idxstat in x:
         tup = idxstat.rstrip('\n').split('\t')
         nReadsInChroms[tup[0]] = int(tup[2])
 
